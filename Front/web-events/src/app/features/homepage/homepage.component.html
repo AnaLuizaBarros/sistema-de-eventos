@@ -1,0 +1,20 @@
+<div class="container">
+  <nav class="navbar navbar-light bg-light">
+
+    <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Bem vindo {{user}}
+
+  </nav>
+
+  <div>
+  </div>
+  <button (click)="test('Agendamento')" class="btn btn-secondary float-end">Marcar proximo evento</button>
+  <div>
+    <h3>Seus proximos eventos: </h3>
+    <div class="row">
+      <div class="col-sm-3 mt-4" *ngFor="let item of '12345'.split('');">
+        <app-list-events></app-list-events>
+      </div>
+    </div>
+  </div>
+</div>

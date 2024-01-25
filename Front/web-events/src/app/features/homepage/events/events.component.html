@@ -1,0 +1,41 @@
+<!--<div class="modal card card-info d-flex">
+  <div class="card-body">
+    <div class="modal-header">
+      <h5 class="modal-title">Informação</h5>
+    </div>
+    <label for="">Descricao</label>
+    <input type="text" name="" id="">
+    <label for="">Data</label>
+    <input type="text" name="" id="">
+    <label for="">Hora de inicio</label>
+    <input type="text" name="" id="">
+    <label for="">Hora de temrino</label>
+    <input type="text" name="" id="">
+
+    <div class="modal-footer Close">
+      <button class="button btn primary mt-3" (click)="activeModal.dismiss('Cross click')" aria-label="Close">
+        Fechar
+      </button>
+    </div>
+  </div>
+</div>-->
+
+<div class="modal-header">
+  <h4 class="modal-title" id="modal-basic-title">{{ModalType}}</h4>
+  <button type="button" class="btn-close" aria-label="Close" (click)="close()"></button>
+</div>
+<div class="modal-body">
+  <form action="">
+    <label for="" class="form-label">Descricao</label>
+    <input type="text" name="" id="" class="form-control">
+    <label for="" class="form-label">Data</label>
+    <input type="text" name="" id="" class="form-control">
+    <label for="" class="form-label">Hora de inicio</label>
+    <input type="text" name="" id="" class="form-control">
+    <label for="" class="form-label">Hora de temrino</label>
+    <input type="text" name="" id="" class="form-control">
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-dark">Save</button>
+</div>
