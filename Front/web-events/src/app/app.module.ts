@@ -8,10 +8,12 @@ import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HomeComponent } from './core/layout/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
   imports: [
+    HttpClientModule,
     AppRoutingModule,
     RouterModule,
     BrowserModule,
